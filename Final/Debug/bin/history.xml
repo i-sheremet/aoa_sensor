@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.7.4 -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=Final.map -O0 --gc-sections -LD:\CoIDE\CoIDE\configuration\ProgramData\Final -TD:\CoIDE\CoIDE\configuration\ProgramData\Final/arm-gcc-link.ld -g">
+      <target file="Final.elf" lastModified="1471f4bc802">
+         <source file="..\obj\my_tim.o" lastModified="1471f49fbe0"/>
+         <source file="..\obj\MS4525.o" lastModified="1471f49fd0c"/>
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="1471f49fe5b"/>
+         <source file="..\obj\my_usart.o" lastModified="1471f49ff0f"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="1471f4a004e"/>
+         <source file="..\obj\main.o" lastModified="1471f4a01dc"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="1471f4a0376"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="1471f4a04b2"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="1471f4a0654"/>
+         <source file="..\obj\syscalls.o" lastModified="1471f4a07b2"/>
+         <source file="..\obj\stm32f4xx_i2c.o" lastModified="1471f4a091e"/>
+         <source file="..\obj\misc.o" lastModified="1471f4a09b5"/>
+         <source file="..\obj\my_i2c.o" lastModified="1471f4a0a53"/>
+         <source file="..\obj\ma3_encoder.o" lastModified="1471f4bc4f4"/>
+         <source file="..\obj\send_buffer.o" lastModified="1471f4a0c52"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="1471f4a0ec9"/>
+      </target>
+   </processor>
+</history>

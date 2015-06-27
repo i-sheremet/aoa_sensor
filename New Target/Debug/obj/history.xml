@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -std=c99 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Dropbox\DAS\AoA\CooCox projects\Final\my_tim_lib -I..\..\..\..\..\Dropbox\DAS\AoA\CooCox projects\Final\cmsis_lib\include -I..\..\..\..\..\Dropbox\DAS\AoA\CooCox projects\Final\ma3_encoder -I..\..\..\..\..\Dropbox\DAS\AoA\CooCox projects\Final -I..\..\..\..\..\Dropbox\DAS\AoA\CooCox projects\Final\MS4525_lib -I..\..\..\..\..\Dropbox\DAS\AoA\CooCox projects\Final\cmsis_lib -I..\..\..\..\..\Dropbox\DAS\AoA\CooCox projects\Final\my_i2c_lib -I..\..\..\..\..\Dropbox\DAS\AoA\CooCox projects\Final\my_usart_lib -I..\..\..\..\..\Dropbox\DAS\AoA\CooCox projects\Final\cmsis -I..\..\..\..\..\Dropbox\DAS\AoA\CooCox projects -I..\..\..\..\..\Dropbox\DAS\AoA\CooCox projects\Final\send_buffer -I..\..\..\..\..\Dropbox\DAS\AoA\CooCox projects\Final\cmsis_boot">
+      <target file="syscalls.o" lastModified="1472593fbbe">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="14700a3e51e"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="1472593f93d">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="147009f7b54"/>
+      </target>
+      <target file="MS4525.o" lastModified="1472593eef3">
+         <source file="..\..\..\MS4525_lib\MS4525.c" lastModified="1472033597f"/>
+      </target>
+      <target file="my_usart.o" lastModified="1472593f2cb">
+         <source file="..\..\..\my_usart_lib\my_usart.c" lastModified="1471b741e6b"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="147259402ae">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="14700bac8f6"/>
+      </target>
+      <target file="ma3_encoder.o" lastModified="1472593ff39">
+         <source file="..\..\..\ma3_encoder\ma3_encoder.c" lastModified="1471f989217"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="1472593fa57">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="14156998cae"/>
+      </target>
+      <target file="my_tim.o" lastModified="1472593ed4c">
+         <source file="..\..\..\my_tim_lib\my_tim.c" lastModified="147207bd98a"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="1472593f40c">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="14715e845ce"/>
+      </target>
+      <target file="stm32f4xx_i2c.o" lastModified="1472593fd1f">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="14700996a04"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="1472593f1d0">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="147009f949c"/>
+      </target>
+      <target file="send_buffer.o" lastModified="14725940054">
+         <source file="..\..\..\send_buffer\send_buffer.c" lastModified="1471c31cc7b"/>
+      </target>
+      <target file="my_i2c.o" lastModified="1472593fe78">
+         <source file="..\..\..\my_i2c_lib\my_i2c.c" lastModified="1471f7695e1"/>
+      </target>
+      <target file="main.o" lastModified="14725958192">
+         <source file="..\..\..\main.c" lastModified="14725957b6a"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="1472593f7aa">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="147009919ea"/>
+      </target>
+      <target file="misc.o" lastModified="1472593fdd5">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="14700bafe63"/>
+      </target>
+   </processor>
+</history>
